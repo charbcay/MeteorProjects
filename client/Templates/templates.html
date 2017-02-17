@@ -1,0 +1,20 @@
+<template name="main_layout">
+    {{>Template.dynamic template=home}}
+</template>
+<template name="FirstLayout">
+    <div class="container-fluid" style="padding:0px;">
+    {{> Template.dynamic template=top}}
+    {{> Template.dynamic template=main}}
+    {{> Template.dynamic template=footer}}
+    </div>
+</template>
+
+<template name="login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                {{> atForm}}
+            </div>
+        </div>
+    </div>
+</template>
