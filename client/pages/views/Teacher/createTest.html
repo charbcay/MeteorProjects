@@ -1,6 +1,6 @@
 <template name="createTest">
     <div class="row">
-        <div class="col-sm-9" style="padding-right:2px;">
+        <div class="col-sm-7 col-sm-offset-1" style="padding-right:2px;">
             <div class="panel panel-default">
 
                 <div class="panel-body">
@@ -41,7 +41,7 @@
 <template name="insertQuestion2">
         {{#autoForm collection="Questions" id="insertQuestion2" type="insert"}}
             <fieldset>
-                <legend>Add a Question</legend>
+
                 {{> afQuickField name='Question' autofocus=''}}
                 {{> afQuickField name='Answer'}}
             </fieldset>

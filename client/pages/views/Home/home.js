@@ -3,6 +3,7 @@
 Template.top.onCreated(function helloOnCreated() {
     // counter starts at 0
     this.counter = new ReactiveVar(0);
+    FlowRouter.redirect('/teacher/dashboard');
 });
 
 Template.top.helpers({

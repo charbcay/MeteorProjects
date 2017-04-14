@@ -2,12 +2,18 @@
     {{>Template.dynamic template=home}}
 </template>
 <template name="FirstLayout">
-    <div class="container-fluid" style="padding:0px;">
+    <div class="container-fluid fill" style="padding:0px;">
     {{> Template.dynamic template=top}}
     {{> Template.dynamic template=main}}
     {{> Template.dynamic template=footer}}
     </div>
 </template>
+<template name="ExaminationLayout">
+    <div class="container-fluid fill" style="padding:0px;">
+    {{> Template.dynamic template=main}}
+    </div>
+</template>
+
 
 <template name="login">
     <div class="container-fluid">
