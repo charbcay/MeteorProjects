@@ -4,158 +4,102 @@
     <div class="row">
         <div class="col-sm-5">
             <div class="row" style="margin-left:5px;">
-                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; border-radius:5px;">
-
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; border-radius:5px; overflow:scroll;">
+                    <ul class="list-group" style="margin-top:10px;">
+                        <li class="list-group-item">Peter <span class="glyphicon glyphicon-edit pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">progress</span></li>
+                        <li class="list-group-item">Jhon <span class="glyphicon glyphicon-edit pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">progress</span></li>
+                        <li class="list-group-item">David <span class="glyphicon glyphicon-edit pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">progress</span></li>
+                        <li class="list-group-item">Charben <span class="glyphicon glyphicon-edit pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">progress</span></li>
+                        <li class="list-group-item">Alba <span class="glyphicon glyphicon-check pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">done</span></li>
+                        <li class="list-group-item">Christian<span class="glyphicon glyphicon-check pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">done</span></li>
+                        <li class="list-group-item">Felix <span class="glyphicon glyphicon-check pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">done</span></li>
+                        <li class="list-group-item">Patrick <span class="glyphicon glyphicon-check pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">done</span></li>
+                        <li class="list-group-item">Violeta <span class="glyphicon glyphicon-check pull-right"></span>
+                            <span class="pull-right" style="margin-right:5px; margin-top:3px;font-size:8px;">done</span></li>
+                    </ul>
                 </div>
                 <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; margin-top:5px; border-radius:5px;">
-
+                    <canvas id="myLineChart"></canvas>
                 </div>
             </div>
         </div>
         <div class="col-sm-3">
             <div class="row">
-                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; border-radius:5px;">
-
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:150px; border-radius:5px;">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td colspan="3" style="text-align:center; font-size: 1.2em;">Total</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center;font-size: .8em; font-weight: 400; color: #8c8383;">
+                                    Invited
+                                </td>
+                                <td style="text-align:center;font-size: .8em; font-weight: 400; color: #8c8383;">
+                                    Not started
+                                </td>
+                                <td style="text-align:center;font-size: .8em; font-weight: 400; color: #8c8383;">
+                                    Finish
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="text-align:center; font-size: 1.5em; color: #009f9a;">100</td>
+                            <td style="text-align:center; font-size: 1.5em; color: #009f9a;">56</td>
+                            <td style="text-align:center; font-size: 1.5em; color: #009f9a;">44</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; margin-top:5px; border-radius:5px;">
-
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:350px; margin-top:5px; border-radius:5px;">
+                    <canvas id="myRadarChart"></canvas>
                 </div>
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:100px; border-radius:5px;">
+                    <p style="font-size: 1.2em; color:#129894; text-align: center;margin-top:20px;">{{todayDate}}</p>
+                </div>
+
             </div>
         </div>
         <div class="col-sm-4">
             <div class="row" style="margin-right:5px;">
-                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; border-radius:5px;">
-
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:250px; border-radius:5px;">
+                    <canvas id="myChart"></canvas>
                 </div>
-                <div class="col-sm-12 box-shadow" style="background-color:white; height:300px; margin-top:5px; border-radius:5px;">
+                <div class="col-sm-12 box-shadow" style="background-color:white; height:350px; margin-top:5px; border-radius:5px;  overflow:scroll;">
+                    <div style="margin-top:10px;">
+                        <p>Violeta just finished the easy test.</p>
+                        <p>Patrick just finished the hard test.</p>
+                        <p>Charben just finished the easy test.</p>
+                        <p>Peter just finished the intermediate test.</p>
+                        <p>Felix started the easy test.</p>
+                        <p>Peter just finished the video test.</p>
+                        <p>Christian started the test.</p>
+                        <p>Alba just finished the test.</p>
+                        <p>Charben started the test.</p>
+                        <p>David just finished the test.</p>
+                        <p>Charben started the test.</p>
+                        <p>Peter just finished the test.</p>
+                        <p>Felix started the test.</p>
+                        <p>Peter just finished the test.</p>
+                        <p>Christian started the test.</p>
+                        <p>Peter just finished the test.</p>
+                        <p>Alba started the test.</p>
+                    </div>
 
                 </div>
             </div>
         </div>
     </div>
-
-    <script src="../../../dist/Chart.bundle.js"></script>
-    <script src="../../utils.js"></script>
     <script>
 
-        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        var config = {
-            type: 'line',
-            data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
-                datasets: [{
-                    label: "My First dataset",
-                    backgroundColor: window.chartColors.red,
-                    borderColor: window.chartColors.red,
-                    data: [
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor()
-                    ],
-                    fill: false,
-                }, {
-                    label: "My Second dataset",
-                    fill: false,
-                    backgroundColor: window.chartColors.blue,
-                    borderColor: window.chartColors.blue,
-                    data: [
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor()
-                    ],
-                }]
-            },
-            options: {
-                responsive: true,
-                title:{
-                    display:true,
-                    text:'Chart.js Line Chart'
-                },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false,
-                },
-                hover: {
-                    mode: 'nearest',
-                    intersect: true
-                },
-                scales: {
-                    xAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Month'
-                        }
-                    }],
-                    yAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Value'
-                        }
-                    }]
-                }
-            }
-        };
-        window.onload = function() {
-            var ctx = document.getElementById("canvas").getContext("2d");
-            window.myLine = new Chart(ctx, config);
-        };
-        document.getElementById('randomizeData').addEventListener('click', function() {
-            config.data.datasets.forEach(function(dataset) {
-                dataset.data = dataset.data.map(function() {
-                    return randomScalingFactor();
-                });
-            });
-            window.myLine.update();
-        });
-        var colorNames = Object.keys(window.chartColors);
-        document.getElementById('addDataset').addEventListener('click', function() {
-            var colorName = colorNames[config.data.datasets.length % colorNames.length];
-            var newColor = window.chartColors[colorName];
-            var newDataset = {
-                label: 'Dataset ' + config.data.datasets.length,
-                backgroundColor: newColor,
-                borderColor: newColor,
-                data: [],
-                fill: false
-            };
-            for (var index = 0; index < config.data.labels.length; ++index) {
-                newDataset.data.push(randomScalingFactor());
-            }
-            config.data.datasets.push(newDataset);
-            window.myLine.update();
-        });
-        document.getElementById('addData').addEventListener('click', function() {
-            if (config.data.datasets.length > 0) {
-                var month = MONTHS[config.data.labels.length % MONTHS.length];
-                config.data.labels.push(month);
-                config.data.datasets.forEach(function(dataset) {
-                    dataset.data.push(randomScalingFactor());
-                });
-                window.myLine.update();
-            }
-        });
-        document.getElementById('removeDataset').addEventListener('click', function() {
-            config.data.datasets.splice(0, 1);
-            window.myLine.update();
-        });
-        document.getElementById('removeData').addEventListener('click', function() {
-            config.data.labels.splice(-1, 1); // remove the label first
-            config.data.datasets.forEach(function(dataset, datasetIndex) {
-                dataset.data.pop();
-            });
-            window.myLine.update();
-        });
     </script>
-
-
 </template>

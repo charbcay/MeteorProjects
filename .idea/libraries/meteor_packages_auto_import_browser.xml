@@ -283,7 +283,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/da.coffee" />
         <item url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/nl.coffee" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/hidden/hidden.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/d3js_d3/3.5.8/web.browser/packages/d3js_d3.js" />
         <item url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/ca.coffee" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/number/number.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/search/search.js" />
@@ -651,7 +650,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/da.coffee" />
       <root url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/nl.coffee" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/hidden/hidden.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/d3js_d3/3.5.8/web.browser/packages/d3js_d3.js" />
       <root url="file://$USER_HOME$/.meteor/packages/softwarerero_accounts-t9n/1.3.8/web.browser/t9n/ca.coffee" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/number/number.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/search/search.js" />

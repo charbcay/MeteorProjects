@@ -29,4 +29,4 @@ session@1.1.7
 ongoworks:pdf
 aldeed:autoform
 aldeed:collection2
-d3js:d3
+momentjs:moment
