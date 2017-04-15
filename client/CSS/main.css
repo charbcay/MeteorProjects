@@ -14,8 +14,8 @@
     border-radius: 0 4px 4px 0px;
 }
 .myPanelHeading{
-    background-color:#403e3e !important;
-    color:#9d9c9b !important;
+    background-color:#00312e !important;
+    color:#d0cccc !important;
 }
 .text-shadow-header{
     text-shadow: 1px 1px 1px rgb(109, 152, 172);
@@ -180,4 +180,10 @@ a.list-group-item:hover{
     -ms-transform: skewX(-20deg); /* IE 9 */
     -webkit-transform: skewX(-20deg); /* Safari */
     transform: skewX(-20deg); /* Standard syntax */
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border-top:1px solid rgba(173, 208, 207, 0.17);
+}
+.table > thead > tr > th{
+    border-bottom: 2px solid rgba(239, 91, 5, 0.12);
 }
